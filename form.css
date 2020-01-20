@@ -1,0 +1,66 @@
+body{
+    background: url("http://getwallpapers.com/wallpaper/full/3/a/b/445282.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container{
+    width: 33%;
+    margin-left: 40%;
+    margin-top:10%;
+    color:rgb(255, 60, 1);
+   }
+#block{
+    
+    height:450px;
+    width:350px;
+    border: solid rgba(0, 0, 0, 0.233);
+    box-shadow: -5px 5px 10px 10px rgba(0, 0, 0, 0.233) ;
+    padding:1%;
+    border-radius: 8%;
+    
+    
+
+}
+.one{
+    font-size:large;
+    margin:2%;
+    margin-top:0px;
+}
+#term{
+    margin-left:5%;
+    font-size: smaller;
+}
+#star{
+    color: red;
+}
+#email{
+    margin-bottom:0%;
+    font-size: medium;
+}
+input{
+    width:100%;
+    border-radius:4px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding:1%;
+}
+textarea{
+    width:100%;
+    border-radius:4px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+fieldset{
+    border: none;
+}
+#button{
+    margin-left:8%;
+    color:rgb(255, 60, 1);
+}
+#error{
+    color:rgb(0, 0, 0);
+    margin:0px;
+    
+}
